@@ -8,3 +8,29 @@
 .descricao {
     font-family: "rainyhearts";
 }
+
+.cCores {
+    background-color: hsla(120, 5%, 4%, 1);
+    ;
+}
+
+.cCores {
+    background-color: hsla(120, 5%, 4%, 1);
+}
+
+.cCores {
+    background-color: hsla(120, 5%, 4%, 1);
+}
+
+.cLetra {
+    color: rgb(21, 170, 21);
+}
+
+.cCH {
+    color: hsla(34, 70%, 96%, 1);
+    border-bottom: 5px solid;
+}
+
+main {
+    background-color: hsla(25, 44%, 84%, 1);
+}
