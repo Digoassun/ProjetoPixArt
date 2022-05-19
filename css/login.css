@@ -1,12 +1,30 @@
 @import url(../css/btn.css);
 @import url(../css/colors.css);
-@import url(../css/h-f-scr.css);
+@import url(../css/geral.css);
 
 body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     
+}
+.divh1{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+.logo{
+    max-width: 50px;
+    max-height: 30px;
+}
+.divlogo{
+    padding-left: 2rem;
+
+}
+
+.divnav{
+    padding-right: 2rem;
 }
 main{
     /* position: relative;
