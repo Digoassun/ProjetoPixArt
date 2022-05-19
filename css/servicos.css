@@ -1,0 +1,10 @@
+@import url(./colors.css);
+@import url(./geral.css);
+
+.titulo {
+    font-family: "Minecraftia";
+}
+
+.descricao {
+    font-family: "rainyhearts";
+}
