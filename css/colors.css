@@ -1,0 +1,7 @@
+:root {
+    --dark: hsla(120, 5%, 4%, 1);
+    --wine: hsla(335, 84%, 24%, 1);
+    --blue: hsla(240, 31%, 25%, 1);
+    --pale-white: hsla(25, 44%, 84%, 1);
+    --white: hsla(34, 70%, 96%, 1);
+}
