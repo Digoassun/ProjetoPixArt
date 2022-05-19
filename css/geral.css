@@ -1,0 +1,86 @@
+@import url(colors.css);
+
+@font-face {
+    font-family: 'Minecraftia';
+    src: url(../fonts/Minecraftia-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'rainyhearts';
+    src: url(../fonts/rainyhearts.ttf);
+}
+
+@font-face {
+    font-family: 'VCR';
+    src: url(../fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--white)
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--blue);
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--wine);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 1px solid var(--pale-white);
+    /* creates padding around scroll thumb */
+}
+
+header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2;
+}
+
+.a-style {
+    font-family: 'VCR';
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: var(--wine) !important;
+
+}
+
+.navbar-collapse {
+    width: auto;
+}
+
+.nav-link {
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid var(--wine);
+}
+
+@media(min-width:992px) {
+    .nav-link {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+@media(max-width:991.8px) {
+    .navbar-colapse {
+        width: 100%;
+    }
+
+    .nav-link:hover {}
+}
