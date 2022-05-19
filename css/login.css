@@ -1,3 +1,10 @@
 @import url(../css/btn.css);
 @import url(../css/colors.css);
 @import url(../css/h-f-scr.css);
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
