@@ -1,2 +1,29 @@
 @import url(colors.css);
-@import url(geral.css)
+@import url(geral.css);
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2rem;
+    font-family:'Minecraftia';
+}
+
+.explicacao{
+    text-align: center;
+    font-size: 1.25rem;
+    font-family:'rainyhearts';
+}
+
+.form-control{
+    font-family:'rainyhearts';
+}
+
+.form-label{
+    font-family: 'rainyhearts';
+    font-size: 1.25rem;
+}
