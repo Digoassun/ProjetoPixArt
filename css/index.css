@@ -23,8 +23,12 @@
 }
 
 .img-card {
-    object-fit: cover;
+    object-fit: cover;    
     height: 200px;
+}
+
+.img-card-singular{
+    object-position: 100% 0;
 }
 
 .sec-3 {
@@ -34,6 +38,11 @@
 .img-carousel {
     height: 500px;
     object-fit: cover;
+}
+
+.img-carousel-position{
+    object-fit: cover;
+    object-position: 0 25%;
 }
 
 .img-inverter {
