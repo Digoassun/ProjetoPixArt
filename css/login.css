@@ -8,3 +8,73 @@ body{
     justify-content: space-between;
     
 }
+main{
+    /* position: relative;
+    bottom: 5rem; */
+    height: 27rem;
+    font-family: 'Minecraftia';
+    display: flex;
+    justify-content: center;
+}
+.form{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+    border-radius: 2rem;
+    width: auto;
+    height: auto;
+    
+}
+.h1form{
+    padding-top: 2rem ;
+}
+.form-floating{
+    width: 20rem;
+}
+.imgForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 10rem;
+    padding-bottom: 1rem;
+   
+    align-items: center;
+}
+.facebook{
+    width: 3rem;
+    height: 3rem;
+   
+}
+.google{
+    width: 3rem;
+    height: 3rem;
+}
+.espaçamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.linkDiv{
+    display: flex;
+    text-align: end;
+    padding-bottom: 1rem;
+}
+.linkEsqueci{
+    text-decoration: none;
+    display: flex;
+    color: #323232;
+    text-align:start ;
+}
+.linkEsqueci:hover{
+    color: #323232;
+}
+.input-group{
+    width: 20rem;
+}
+.wrapper{
+    padding: 0;
+}
