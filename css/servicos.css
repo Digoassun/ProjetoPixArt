@@ -10,20 +10,11 @@
 }
 
 .cCores {
-    background-color: hsla(120, 5%, 4%, 1);
-    ;
-}
-
-.cCores {
-    background-color: hsla(120, 5%, 4%, 1);
-}
-
-.cCores {
-    background-color: hsla(120, 5%, 4%, 1);
+    background-color: hsla(240, 31%, 25%, 1);
 }
 
 .cLetra {
-    color: rgb(21, 170, 21);
+    color: hsla(34, 70%, 96%, 1);
 }
 
 .cCH {
@@ -31,6 +22,7 @@
     border-bottom: 5px solid;
 }
 
-main {
-    background-color: hsla(25, 44%, 84%, 1);
+.limite {
+    overflow: hidden;
+    width: 55%;
 }
