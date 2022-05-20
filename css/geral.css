@@ -20,12 +20,17 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: var(--pale-white)
+    background-color: var(--pale-white);
+    cursor: url(../imgs/cursor.png),default;      
 }
 
 body::-webkit-scrollbar {
     width: 7px;
     /* width of the entire scrollbar */
+}
+
+button,a{
+    cursor: url(../imgs/cursor-click.png),auto !important;
 }
 
 body::-webkit-scrollbar-track {
