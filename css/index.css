@@ -1,13 +1,17 @@
 @import url(colors.css);
 @import url(geral.css);
 
-.sec-1 {
-    /* background-color: var(--white); */
+body{
+    font-family: 'rainyhearts';
 }
 
-.h1-text-style {
+.title-style{
     color: var(--wine);
-    font-family: 'rainyhearts';
+    font-family: 'VCR';
+}
+
+.main-title-style{
+    font-size: 4rem;
 }
 
 .cards {
@@ -16,6 +20,10 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
+}
+
+.card-title-style{
+    font-size: 1.3rem;
 }
 
 .card-width {
@@ -43,6 +51,12 @@
 .img-carousel-position{
     object-fit: cover;
     object-position: 0 25%;
+}
+
+.txt-carousel-style{
+    color: var(--wine);
+    font-family: 'VCR';
+    font-size:4rem;
 }
 
 .img-inverter {
