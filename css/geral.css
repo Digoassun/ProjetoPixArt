@@ -21,7 +21,7 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: var(--pale-white);
-    cursor: url(../imgs/cursor.png),default;      
+    cursor: url(../imgs/cursor.png),auto;      
 }
 
 body::-webkit-scrollbar {

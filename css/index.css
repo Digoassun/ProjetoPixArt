@@ -14,6 +14,11 @@ body{
     font-size: 4rem;
 }
 
+.img-logo-sec{
+    position: relative;
+    bottom: 0.5rem;
+}
+
 .cards {
     display: flex;
     flex-direction: row;
@@ -24,6 +29,17 @@ body{
 
 .card-title-style{
     font-size: 1.3rem;
+}
+
+.card-text-style{
+    font-size: 1.2rem;
+    color: var(--dark);
+}
+
+.card-body-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card-width {
@@ -128,11 +144,16 @@ body{
 }
 
 .h3-swiper {
-    font-size: 1.2rem;
-    letter-spacing: 1px;
-    line-height: 1em;
+    font-size: 1.4rem;
+    line-height: 0.8em;
+    color: var(--dark);
 }
 
 .span-swiper {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
+}
+
+.content-swipe-text{
+    font-size: 1.2rem;
+    color: var(--dark);
 }
