@@ -7,6 +7,7 @@
 
 .descricao {
     font-family: "rainyhearts";
+    font-size: 30px;
 }
 
 .cCores {
@@ -15,11 +16,14 @@
 
 .cLetra {
     color: hsla(34, 70%, 96%, 1);
+    font-family: "rainyhearts";
+    font-size: 20px;
 }
 
 .cCH {
     color: hsla(34, 70%, 96%, 1);
     border-bottom: 5px solid;
+    font-family: "rainyhearts";
 }
 
 .limite {
