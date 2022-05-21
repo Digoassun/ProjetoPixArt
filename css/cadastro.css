@@ -21,9 +21,59 @@
 
 .form-control{
     font-family:'rainyhearts';
+    width: 10rem;
 }
 
 .form-label{
     font-family: 'rainyhearts';
     font-size: 1.25rem;
+}
+
+button{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.row{
+    width: 40rem;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: red;
+ }
+
+input{
+    text-align: center;
+ }
+
+ section{
+     text-align: center;
+ }
+
+div{
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.btn{
+    margin-top: 2.2em;
+}
+
+.envia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    
 }
