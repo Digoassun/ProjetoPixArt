@@ -26,7 +26,11 @@
     font-family: "rainyhearts";
 }
 
-.limite {
-    overflow: hidden;
-    width: 55%;
+
+.sectionsDeBio {
+    width: 100%;
+}
+
+img {
+    display: inline-block;
 }
