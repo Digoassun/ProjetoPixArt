@@ -1,0 +1,32 @@
+@import url(./colors.css);
+@import url(./geral.css);
+
+.titulo {
+    font-family: "Minecraftia";
+}
+
+.descricao {
+    font-family: "rainyhearts";
+    font-size: 30px;
+}
+
+.cCores {
+    background-color: hsla(240, 31%, 25%, 1);
+}
+
+.cLetra {
+    color: hsla(34, 70%, 96%, 1);
+    font-family: "rainyhearts";
+    font-size: 20px;
+}
+
+.cCH {
+    color: hsla(34, 70%, 96%, 1);
+    border-bottom: 5px solid;
+    font-family: "rainyhearts";
+}
+
+.limite {
+    overflow: hidden;
+    width: 55%;
+}
