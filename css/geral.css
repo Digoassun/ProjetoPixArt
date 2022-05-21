@@ -29,14 +29,6 @@ body::-webkit-scrollbar {
     /* width of the entire scrollbar */
 }
 
-button,a{
-    cursor: url(../imgs/cursor-click.png),auto !important;
-}
-
-body::-webkit-scrollbar-track {
-    background: var(--blue);
-    /* color of the tracking area */
-}
 
 body::-webkit-scrollbar-thumb {
     background-color: var(--wine);
@@ -45,6 +37,15 @@ body::-webkit-scrollbar-thumb {
     /* roundness of the scroll thumb */
     border: 1px solid var(--pale-white);
     /* creates padding around scroll thumb */
+}
+
+button,a{
+    cursor: url(../imgs/cursor-click.png),auto !important;
+}
+
+body::-webkit-scrollbar-track {
+    /* background: var(--blue); */
+    /* color of the tracking area */
 }
 
 header {
