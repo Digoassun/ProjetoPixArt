@@ -27,15 +27,6 @@ body {
     gap: 50px;
 }
 
-.card-title-style {
-    font-size: 1.3rem;
-}
-
-.card-text-style {
-    font-size: 1.2rem;
-    color: var(--dark);
-}
-
 .card-body-style {
     display: flex;
     flex-direction: column;
@@ -67,20 +58,14 @@ body {
 
 .btn-style {
     font-family: 'VCR';
-    border-width: 3px;
-    border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(33,37,41)" /></svg>');
-    border-image-width: 2;
-    border-image-slice: 2;
-    border-image-outset: 2;
     font-size: 1.1rem;
-    width: 8em;
-    border-radius: 0;
+    color: var(--dark) !important;
 }
 
-.btn-style:hover {
-    color: var(--pale-white);
-    background-color:rgb(33,37,41) ;
+.btn-style:focus {
+    box-shadow: none !important;
 }
+
 
 .sec-3 {
     overflow: hidden;
