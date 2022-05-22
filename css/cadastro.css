@@ -1,0 +1,91 @@
+@import url(colors.css);
+@import url(geral.css);
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2rem;
+    font-family:'Minecraftia';
+}
+
+.explicacao{
+    text-align: center;
+    font-size: 1.25rem;
+    font-family:'rainyhearts';
+}
+
+.form-control{
+    font-family:'rainyhearts';
+    width: 10rem;
+}
+
+.form-label{
+    font-family: 'rainyhearts';
+    font-size: 1.25rem;
+}
+
+button{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.row{
+    width: 40rem;
+}
+
+
+input{
+    text-align: center;
+ }
+
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.btn{
+    margin-top: 2.2em;
+}
+
+.envia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

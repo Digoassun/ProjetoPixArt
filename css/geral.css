@@ -20,7 +20,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: var(--white)
+    background-color: var(--pale-white);
 }
 
 body::-webkit-scrollbar {
@@ -28,10 +28,6 @@ body::-webkit-scrollbar {
     /* width of the entire scrollbar */
 }
 
-body::-webkit-scrollbar-track {
-    background: var(--blue);
-    /* color of the tracking area */
-}
 
 body::-webkit-scrollbar-thumb {
     background-color: var(--wine);
@@ -40,6 +36,11 @@ body::-webkit-scrollbar-thumb {
     /* roundness of the scroll thumb */
     border: 1px solid var(--pale-white);
     /* creates padding around scroll thumb */
+}
+
+button,
+a {
+    cursor: url(../imgs/cursor-click.png), auto !important;
 }
 
 header {
@@ -56,17 +57,39 @@ header {
 
 }
 
+.card-title-style {
+    font-size: 1.3rem;
+}
+
+.card-text-style {
+    font-size: 1.2rem;
+    color: var(--dark);
+}
+
 .navbar-collapse {
     width: auto;
 }
 
 .nav-link {
-    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid transparent !important;
     transition: 0.3s;
 }
 
 .nav-link:hover {
     border-bottom: 2px solid var(--wine);
+}
+
+.cadastro-style {
+    color: var(--dark) !important;
+    font-family: 'VCR';
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 0.3em;
+    margin-left: 1em;
+}
+
+.cadastro-style:focus {
+    box-shadow: none !important;
 }
 
 @media(min-width:992px) {
@@ -82,5 +105,9 @@ header {
         width: 100%;
     }
 
-    .nav-link:hover {}
+    .cadastro-style {
+        margin-left: 0;
+        margin-top: 0.8em;
+    }
+
 }

@@ -1,0 +1,43 @@
+@import url(./colors.css);
+@import url(./geral.css);
+
+.titulo {
+    font-family: "Minecraftia";
+}
+
+.descricao {
+    font-family: "rainyhearts";
+    font-size: 30px;
+}
+
+.cCores {
+    background-color: hsla(240, 31%, 25%, 1);
+}
+
+.cLetra {
+    color: rgb(0, 0, 0);
+    font-family: "rainyhearts";
+    font-size: 20px;
+}
+
+.cCH {
+    color: rgb(0, 0, 0);
+    border-bottom: 5px solid;
+    font-family: "rainyhearts";
+}
+
+
+.sectionsDeBio {
+    width: 100%;
+}
+
+img {
+    display: inline-block;
+}
+
+.posiciona-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}

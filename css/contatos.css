@@ -1,0 +1,46 @@
+@import url(../css/colors.css);
+@import url(../css/geral.css);
+
+main {
+    text-align: center;
+}
+main h1 {
+    font-family: 'rainyhearts';
+    color: black;
+    font-size: 70px;
+}
+
+.container.container1 {
+    text-align: center;
+    margin-left: 7rem;
+}
+
+.row.pictures {
+    margin-top: 2rem;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.row.pictures1 {
+    justify-content: center;
+
+}
+
+
+.cardPic {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding: 30px;
+    width: 350px;
+    height: 350px;
+    background-color: var(--wine);
+    border-radius: 15px;
+}
+
+.cardPic h3 {
+    font-family: 'Minecraftia';
+    color: white;
+}
+
