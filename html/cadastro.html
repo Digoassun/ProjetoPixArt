@@ -45,76 +45,74 @@
             </div>
         </header>
         <main>
-            <div class="secao1" class="col 9 col-md-3" class="form">
+            <div  class="form" >
                 <h1 class="titulo">Cadastre-se conosco</h1>
                 <p class="explicacao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit earum consequuntur aliquid
                     temporibus minus soluta odit animi perspiciatis necessitatibus deleniti! Doloribus aliquam
                     facere quidem nostrum neque quisquam eveniet ut deserunt!</p>
-                <section>
-                    <form class="row g-3">
+                <section class="formulario">
+                    <form class="row text-center" >
                     <!--nome e sobrenome-->
                         <div class="col-md-6">
-                            <input type="text" class="form-control" id="inputCity" class="cor" placeholder="Nome:">
+                            <input type="text" class="form-control" id="inputCity nome" class="cor" placeholder="Nome:">
                         </div>
                         <div class="col-md-6">
-                            <input type="text" class="form-control" id="inputCity" class="cor"placeholder="Sobrenome:">
+                            <input type="text" class="form-control" id="inputCity sobrenome" class="cor"placeholder="Sobrenome:">
                         </div>
                     
                         <!--dados pessoais-->
                         <div class="col-md-6">
                             <label for="inputCity" class="form-label">RG:</label>
-                            <input type="text" class="form-control" id="inputCity"class="cor" placeholder="RG">
+                            <input type="text" class="form-control" id="inputCity rg" class="cor">
                         </div>
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Email:</label>
-                            <input type="email" class="form-control" id="inputEmail4"class="cor" placeholder="Email">
+                            <input type="email" class="form-control" id="inputEmail4 email"class="cor">
                         </div>
                         <div class="col-md-6">
                             <label for="inputPassword4" class="form-label">Senha:</label>
-                            <input type="password" class="form-control" id="inputPassword4" class="cor"placeholder="Senha">
+                            <input type="password" class="form-control" id="inputPassword4 senha" class="cor">
                         </div>
                         <div class="col-md-6">
                             <label for="inputPassword4" class="form-label">Confirmação da Senha:</label>
-                            <input type="password" class="form-control" id="inputPassword4" class="cor"placeholder="confirmação de senha">
+                            <input type="password" class="form-control" id="inputPassword4 confirmaSenha" class="cor"placeholder="Digite novamente a sua senha">
                         </div>
                         <!--Endereço-->
                         <div class="col-10">
                             <label for="inputAddress" class="form-label">CEP:</label>
-                            <input type="number" class="form-control" id="inputAddress"class="cor" placeholder="CEP">
+                            <input type="number" class="form-control" id="inputAddress cep"class="cor" placeholder="Digite apenas números">
                         </div> 
                         <div class="col-2" >   
-                            <button type="submit" class="btn btn-secondary" class="btn">Buscar </button>
+                            <button type="submit" class="btn btn-secondary" class="btn" id="buscaCep">Buscar </button>
                         </div>
                         <div class="col-md-12">
                             <label for="inputZip" class="form-label">Estado:</label>
-                            <input type="text" class="form-control" id="inputZip" disabled >
+                            <input type="text" class="form-control" id="inputZip estado" disabled >
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <label for="inputCity" class="form-label">Cidade:</label>
-                            <input type="text" class="form-control" id="inputCity" disabled placeholder="cidade">
+                            <input type="text" class="form-control" id="inputCity cidade" disabled>
                         </div>
                         
                         <div class="col-md-6">
                             <label for="inputZip" class="form-label">Bairro:</label>
-                            <input type="text" class="form-control" id="inputZip" disabled placeholder="Bairro">
+                            <input type="text" class="form-control" id="inputZip bairro" disabled >
                         </div>
                         <div class="col-md-4">
                             <label for="inputZip" class="form-label">Rua:</label>
-                            <input type="text" class="form-control" id="inputZip" disabled placeholder="Rua:">
+                            <input type="text" class="form-control" id="inputZip rua" disabled>
                         </div>
                         <div class="col-md-4">
                             <label for="inputCity" class="form-label">Número:</label>
-                            <input type="number" class="form-control" id="inputZip" class="cor" placeholder="número">
+                            <input type="number" class="form-control" id="inputZip numero" class="cor">
                         </div>
                         <div class="col-md-4">
                             <label for="inputZip" class="form-label">Complemento:</label>
-                            <input type="text" class="form-control" id="inputZip" class="cor" placeholder="Complemento">
+                            <input type="text" class="form-control" id="inputZip complemento" class="cor">
                         </div>
                         <div class="col-md-6">
-                            <button type="submit" class="btn btn-primary" class="envia">Enviar</button>
+                            <button type="submit" class="btn btn-primary botao" id="enviaCadastro">Enviar</button>
                         </div>
-
-                        
                     </form>
                 </section>
             </div>
@@ -123,6 +121,7 @@
             <p class="m-0"><a> Todos os direitos reservados &copy; PixArt 2022</a></p>
         </footer>
     </div>
+    
 </body>
 
 </html>
