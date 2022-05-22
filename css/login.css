@@ -2,31 +2,35 @@
 @import url(../css/colors.css);
 @import url(../css/geral.css);
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
-.sectionH1{
+
+.sectionH1 {
     display: flex;
     width: 100%;
     justify-content: space-around;
     padding-bottom: 1rem;
 }
-.logo{
+
+.logo {
     max-width: 50px;
     max-height: 30px;
 }
-.divlogo{
+
+.divlogo {
     padding-left: 2rem;
 
 }
 
-.divnav{
+.divnav {
     padding-right: 2rem;
 }
-main{
+
+main {
     /* position: relative;
     bottom: 5rem; */
     height: 27rem;
@@ -34,69 +38,82 @@ main{
     display: flex;
     justify-content: center;
 }
-.form{
-    
+
+.form {
+
     display: flex;
     flex-direction: column;
     align-items: center;
-   justify-content: center;
-    
+    justify-content: center;
+
     border-radius: 2rem;
     width: auto;
     height: auto;
-    
+
 }
-.invert{
-     transform: scaleX(-1)
+
+.invert {
+    transform: scaleX(-1)
 }
-.h1form{
-    padding-top: 2rem ;
+
+.h1form {
+    padding-top: 2rem;
 }
-.form-floating{
+
+.form-floating {
     width: 20rem;
 }
-.imgForm{
+
+.imgForm {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 10rem;
     padding-bottom: 1rem;
-   
+
     align-items: center;
 }
-.facebook{
+
+.facebook {
     width: 3rem;
     height: 3rem;
-   padding: 0px;
+    padding: 0px;
 }
-.google{
+
+.google {
     width: 3rem;
     height: 3rem;
-    
+
 }
-.espaçamento{
+
+.espaçamento {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
 }
-.linkDiv{
+
+.linkDiv {
     display: flex;
     text-align: end;
     padding-bottom: 1rem;
 }
-.linkEsqueci{
+
+.linkEsqueci {
     text-decoration: none;
     display: flex;
     color: #323232;
-    text-align:start ;
+    text-align: start;
 }
-.linkEsqueci:hover{
+
+.linkEsqueci:hover {
     color: #323232;
 }
-.input-group{
+
+.input-group {
     width: 20rem;
 }
-.wrapper{
+
+.wrapper {
     padding: 0;
 }
