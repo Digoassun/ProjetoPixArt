@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PixArt</title>
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
@@ -37,7 +38,7 @@
                             <a class="nav-link a-style p-0" href="#">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a-style p-0" href="#">Cadastre-se</a>
+                            <button class="nes-btn is-primary cadastro-style p-0" href="#">Cadastre-se</button>
                         </li>
                     </ul>
                 </div>
@@ -45,61 +46,60 @@
         </div>
     </header>
     <main>
-        <section class="container-fluid sec-1">
+        <section class="container mt-5 mb-5 sec-1">
             <div class="row">
                 <figure class="text-center col-2">
                     <img src="imgs/arts/main.png" class="img-fluid" alt="">
                 </figure>
-                <h1 class="p-4 text-center h1-text-style col-8">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <h1 class="p-4 text-center title-style main-title-style col-8">Seja bem vindo a <span><img class="img-logo-sec" src="imgs/PixArt.svg" alt=""></span>
                 </h1>
-                <figure class="text-center  col-2">
+                <figure class="text-center col-2">
                     <img src="imgs/arts/main.png" class="img-fluid img-inverter" alt="">
                 </figure>
             </div>
-            <h2 class="p-4 mb-0 text-center h1-text-style">Lorem, ipsum dolor sit amet consectetur adipisicing
-                elit. Ad
-                ab,
-                saepe nam amet dicta pariatur at laborum aut nulla, omnis dignissimos incidunt ullam provident!
-                Asperiores aperiam culpa nihil eos ducimus?</h2>
+            <h2 class="p-4 mb-0 text-center title-style">O melhor curso de programação GameDev voltada a Pixel Art!</h2>
         </section>
-        <section class="container-fluid mb-3">
-            <h3 class="p-3 text-center">Tecnologias e Linguagens do curso:</h3>
+        <section class="container-fluid mt-5 mb-5">
+            <h3 class="p-3 title-style text-center">Tecnologias e Linguagens do curso:</h3>
             <div class="cards">
-                <article class="p-0 card card-width text-center">
+                <article class="p-0 card card-style text-center">
                     <img src="imgs/arts/C-carousel.png" class="img-card card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">C#</h5>
-                        <p class="card-text">CSharp é uma linguagem de programação orientada a objetos.</p>
-                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    <div class="card-body card-body-style">
+                        <h5 class="card-title title-style card-title-style">C#</h5>
+                        <p class="card-text card-text-style">CSharp é uma linguagem de programação orientada a objetos.</p>
+                        <button class="nes-btn is-primary btn-style">Saiba mais</button>
                     </div>
                 </article>
-                <article class="p-0 card card-width text-center">
+                <article class=" p-0 card card-style text-center">
                     <img src="imgs/arts/fruity-loops-carousel.jpg" class="img-card card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Fruit Loops Studio</h5>
-                        <p class="card-text">FL Studio, é um sequenciador de áudio para compor e editar suas próprias músicas.</p>
-                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    <div class="card-body card-body-style">
+                        <h5 class="card-title title-style card-title-style">Fruit Loops Studio</h5>
+                        <p class="card-text card-text-style">FL Studio, é um sequenciador de áudio para compor e editar suas próprias
+                            músicas.</p>
+                        <button class="nes-btn is-primary btn-style">Saiba mais</button>
                     </div>
                 </article>
-                <article class="p-0 card card-width text-center">
+                <article class="p-0 card card-style text-center">
                     <img src="imgs/arts/unity-carousel.jpg" class="img-card card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Unity</h5>
-                        <p class="card-text">Unity é uma plataforma “motor de jogos”.</p>
-                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    <div class="card-body card-body-style">
+                        <h5 class="card-title title-style card-title-style">Unity</h5>
+                        <p class="card-text card-text-style">Unity é uma plataforma “motor de jogos”.</p>
+                        <button class="nes-btn is-primary btn-style">Saiba mais</button>
                     </div>
                 </article>
-                <article class="p-0 card card-width text-center">
-                    <img src="imgs/imgs/asprite.jpg" class="img-card img-card-singular card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Aseprite</h5>
-                        <p class="card-text">O Aseprite permite criar animações 2D para videogames de sprites a pixel art..</p>
-                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                <article class="p-0 card card-style text-center">
+                    <img src="imgs/imgs/asprite.jpg" class="img-card img-card-singular card-img-top img-fluid"
+                        alt="...">
+                    <div class="card-body card-body-style">
+                        <h5 class="card-title title-style card-title-style">Aseprite</h5>
+                        <p class="card-text card-text-style">O Aseprite permite criar animações 2D para videogames de sprites a pixel
+                            art</p>
+                        <button class="nes-btn is-primary btn-style">Saiba mais</button>
                     </div>
                 </article>
             </div>
         </section>
-        <section class="container-fluid p-0">
+        <section class="container-fluid container-style p-0">
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -108,37 +108,25 @@
                         aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
 
                 </div>
-                <div class="carousel-inner">
+                <div class="carousel-inner carousel-inner-style">
                     <div class="carousel-item active" data-bs-interval="5000">
                         <img src="imgs/arts/pixel-bg-carousel.png" class="d-block w-100 img-carousel" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5 class="txt-carousel-style">Crie seu portifólio dentro do curso</h5>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="5000">
                         <img src="imgs/gif-carousel.gif" class="d-block w-100 img-carousel" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h5 class="txt-carousel-style">Aprenda a animar suas artes</h5>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="5000">
                         <img src="imgs/pride-flag.gif" class="d-block w-100 img-carousel img-carousel-posi" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="5000">
-                        <img src="imgs/arts/fruity-loops-carousel.jpg" class="d-block w-100 img-carousel" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h5 class="txt-carousel-style">Ambiente seguro e diverso!</h5>
                         </div>
                     </div>
                 </div>
@@ -162,7 +150,7 @@
                         <article class="testimonial-box">
                             <img src="imgs/right-quote.png" class="quote" alt="">
                             <div class="content">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
+                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
                                     nam, aspernatur eligendi!</p>
                                 <div class="details">
                                     <div class="imgBx">
@@ -178,7 +166,7 @@
                         <article class="testimonial-box">
                             <img src="imgs/right-quote.png" class="quote" alt="">
                             <div class="content">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
+                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
                                     nam, aspernatur eligendi!</p>
                                 <div class="details">
                                     <div class="imgBx">
@@ -194,7 +182,7 @@
                         <article class="testimonial-box">
                             <img src="imgs/right-quote.png" class="quote" alt="">
                             <div class="content">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
+                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
                                     nam, aspernatur eligendi!</p>
                                 <div class="details">
                                     <div class="imgBx">
@@ -210,7 +198,7 @@
                         <article class="testimonial-box">
                             <img src="imgs/right-quote.png" class="quote" alt="">
                             <div class="content">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
+                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
                                     nam, aspernatur eligendi!</p>
                                 <div class="details">
                                     <div class="imgBx">
@@ -226,7 +214,7 @@
                         <article class="testimonial-box">
                             <img src="imgs/right-quote.png" class="quote" alt="">
                             <div class="content">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
+                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
                                     nam, aspernatur eligendi!</p>
                                 <div class="details">
                                     <div class="imgBx">
@@ -242,7 +230,7 @@
                         <article class="testimonial-box">
                             <img src="imgs/right-quote.png" class="quote" alt="">
                             <div class="content">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
+                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
                                     nam, aspernatur eligendi!</p>
                                 <div class="details">
                                     <div class="imgBx">
@@ -258,7 +246,7 @@
                         <article class="testimonial-box">
                             <img src="imgs/right-quote.png" class="quote" alt="">
                             <div class="content">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
+                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
                                     nam, aspernatur eligendi!</p>
                                 <div class="details">
                                     <div class="imgBx">
@@ -274,13 +262,27 @@
                         <article class="testimonial-box">
                             <img src="imgs/right-quote.png" class="quote" alt="">
                             <div class="content">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
+                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
                                     nam, aspernatur eligendi!</p>
                                 <div class="details">
                                     <div class="imgBx">
                                         <img class="img-swiper" src="imgs/bruna-metaverso.jpg" alt="">
                                     </div>
                                     <h3 class="h3-swiper">Bruna<br><span class="span-swiper"> do Metaverso</span></h3>
+                                </div>
+                            </div>
+                        </article>
+                    </div><div class="swiper-slide">
+                        <article class="testimonial-box">
+                            <img src="imgs/right-quote.png" class="quote" alt="">
+                            <div class="content">
+                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
+                                    nam, aspernatur eligendi!</p>
+                                <div class="details">
+                                    <div class="imgBx">
+                                        <img class="img-swiper" src="imgs/sabrina.jpg" alt="">
+                                    </div>
+                                    <h3 class="h3-swiper">Sabrina<br><span class="span-swiper">Indiana de tabela</span></h3>
                                 </div>
                             </div>
                         </article>
