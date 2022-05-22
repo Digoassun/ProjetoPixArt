@@ -15,18 +15,29 @@
 }
 
 .cLetra {
-    color: hsla(34, 70%, 96%, 1);
+    color: rgb(0, 0, 0);
     font-family: "rainyhearts";
     font-size: 20px;
 }
 
 .cCH {
-    color: hsla(34, 70%, 96%, 1);
+    color: rgb(0, 0, 0);
     border-bottom: 5px solid;
     font-family: "rainyhearts";
 }
 
-.limite {
-    overflow: hidden;
-    width: 55%;
+
+.sectionsDeBio {
+    width: 100%;
+}
+
+img {
+    display: inline-block;
+}
+
+.posiciona-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
