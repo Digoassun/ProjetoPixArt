@@ -14,9 +14,7 @@ class CepModel {
             if (requisicao.status == 200) {
                 const dados = this._processaResposta(requisicao.responseText)
                 this._att(dados)
-            } else if(requisicao.status ==400){
-                throw new Error('Cep invalido')
-            }
+            } 
         })
         requisicao.open('GET', `https://viacep.com.br/ws/${this.cep.val()}/json/`, false)
         requisicao.send()
