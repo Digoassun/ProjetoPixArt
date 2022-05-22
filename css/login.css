@@ -8,7 +8,7 @@ body{
     justify-content: space-between;
     
 }
-.divh1{
+.sectionH1{
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -39,12 +39,15 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+   justify-content: center;
     
     border-radius: 2rem;
     width: auto;
     height: auto;
     
+}
+.invert{
+     transform: scaleX(-1)
 }
 .h1form{
     padding-top: 2rem ;
@@ -64,11 +67,12 @@ main{
 .facebook{
     width: 3rem;
     height: 3rem;
-   
+   padding: 0px;
 }
 .google{
     width: 3rem;
     height: 3rem;
+    
 }
 .espaçamento{
     display: flex;
