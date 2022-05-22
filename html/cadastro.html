@@ -54,61 +54,61 @@
                     <form class="row text-center" >
                     <!--nome e sobrenome-->
                         <div class="col-md-6">
-                            <input type="text" class="form-control" id="inputCity nome" class="cor" placeholder="Nome:">
+                            <input type="text" class="form-control" id="nome" class="cor" placeholder="Nome:">
                         </div>
                         <div class="col-md-6">
-                            <input type="text" class="form-control" id="inputCity sobrenome" class="cor"placeholder="Sobrenome:">
+                            <input type="text" class="form-control" id="sobrenome" class="cor"placeholder="Sobrenome:">
                         </div>
                     
                         <!--dados pessoais-->
                         <div class="col-md-6">
                             <label for="inputCity" class="form-label">RG:</label>
-                            <input type="text" class="form-control" id="inputCity rg" class="cor">
+                            <input type="text" class="form-control" id="rg" class="cor">
                         </div>
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Email:</label>
-                            <input type="email" class="form-control" id="inputEmail4 email"class="cor">
+                            <input type="email" class="form-control" id="email"class="cor">
                         </div>
                         <div class="col-md-6">
                             <label for="inputPassword4" class="form-label">Senha:</label>
-                            <input type="password" class="form-control" id="inputPassword4 senha" class="cor">
+                            <input type="password" class="form-control" id="senha" class="cor">
                         </div>
                         <div class="col-md-6">
                             <label for="inputPassword4" class="form-label">Confirmação da Senha:</label>
-                            <input type="password" class="form-control" id="inputPassword4 confirmaSenha" class="cor"placeholder="Digite novamente a sua senha">
+                            <input type="password" class="form-control" id="confirmaSenha" class="cor"placeholder="Digite novamente a sua senha">
                         </div>
                         <!--Endereço-->
                         <div class="col-10">
                             <label for="inputAddress" class="form-label">CEP:</label>
-                            <input type="number" class="form-control" id="inputAddress cep"class="cor" placeholder="Digite apenas números">
+                            <input type="number" class="form-control" id="cep" class="cor" placeholder="Digite apenas números">
                         </div> 
                         <div class="col-2" >   
                             <button type="submit" class="btn btn-secondary" class="btn" id="buscaCep">Buscar </button>
                         </div>
                         <div class="col-md-12">
                             <label for="inputZip" class="form-label">Estado:</label>
-                            <input type="text" class="form-control" id="inputZip estado" disabled >
+                            <input type="text" class="form-control" id="estado" disabled >
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <label for="inputCity" class="form-label">Cidade:</label>
-                            <input type="text" class="form-control" id="inputCity cidade" disabled>
+                            <input type="text" class="form-control" id="cidade" disabled>
                         </div>
                         
                         <div class="col-md-6">
                             <label for="inputZip" class="form-label">Bairro:</label>
-                            <input type="text" class="form-control" id="inputZip bairro" disabled >
+                            <input type="text" class="form-control" id="bairro" disabled >
                         </div>
                         <div class="col-md-4">
                             <label for="inputZip" class="form-label">Rua:</label>
-                            <input type="text" class="form-control" id="inputZip rua" disabled>
+                            <input type="text" class="form-control" id="rua" disabled>
                         </div>
                         <div class="col-md-4">
                             <label for="inputCity" class="form-label">Número:</label>
-                            <input type="number" class="form-control" id="inputZip numero" class="cor">
+                            <input type="number" class="form-control" id="numero" class="cor">
                         </div>
                         <div class="col-md-4">
                             <label for="inputZip" class="form-label">Complemento:</label>
-                            <input type="text" class="form-control" id="inputZip complemento" class="cor">
+                            <input type="text" class="form-control" id="complemento" class="cor">
                         </div>
                         <div class="col-md-12">
                             <button type="submit" class="btn btn-primary" id="enviaCadastro">Enviar</button>
@@ -122,6 +122,8 @@
         </footer>
     </div>
     
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/models/requisicaoCep.js"></script>
 </body>
 
 </html>
