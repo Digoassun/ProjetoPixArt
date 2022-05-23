@@ -1,5 +1,5 @@
-@import url(colors.css);
-@import url(geral.css);
+@import url(./colors.css);
+@import url(./geral.css);
 
 .conteudo{
     display: flex;
@@ -12,16 +12,10 @@
     font-size: 2rem;
     font-family:'Minecraftia';
 }
-
 .explicacao{
     text-align: center;
     font-size: 1.25rem;
     font-family:'rainyhearts';
-}
-
-.form-control{
-    font-family:'rainyhearts';
-    width: 10rem;
 }
 
 .form-label{
@@ -49,6 +43,8 @@ input[type=number]::-webkit-outer-spin-button {
 
 input{
     text-align: center;
+
+    width: 2000px;
  }
 
 

@@ -1,127 +1,135 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PixArt</title>
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="../css/cadastro.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="conteudo">
-        <header>
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="#">
-                        <img src="../imgs/PixArt.svg" class="img-fluid" alt="">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navbarstyle justify-content-end collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link a-style active p-0" aria-current="page" href="../index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link a-style p-0" href="../html/serviços.html">Serviços</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link a-style p-0" href="../html/contatos.html">Contato</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link a-style p-0" href="../html/login_page.html">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="../html/cadastro.html" class="nav-link a-style p-0">Cadastre-se</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <div  class="form" >
-                <h1 class="titulo">Cadastre-se conosco</h1>
-                <p class="explicacao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit earum consequuntur aliquid
-                    temporibus minus soluta odit animi perspiciatis necessitatibus deleniti! Doloribus aliquam
-                    facere quidem nostrum neque quisquam eveniet ut deserunt!</p>
-                <section class="formulario">
-                    <form class="row text-center" >
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="../imgs/PixArt.svg" class="img-fluid" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbarstyle justify-content-end collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link a-style active p-0" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link a-style p-0" href="#">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link a-style p-0" href="#">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link a-style p-0" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nes-btn is-primary cadastro-style p-0" href="#">Cadastre-se</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="form">
+            <h1 class="display-1 titulo">Cadastre-se conosco</h1>
+            <p class="explicacao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit earum consequuntur
+                aliquid
+                temporibus minus soluta odit animi perspiciatis necessitatibus deleniti! Doloribus aliquam
+                facere quidem nostrum neque quisquam eveniet ut deserunt!</p>
+            <section class="formulario">
+                <form class="row text-center">
                     <!--nome e sobrenome-->
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" id="inputCity nome" class="cor" placeholder="Nome:">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" id="inputCity sobrenome" class="cor"placeholder="Sobrenome:">
-                        </div>
-                    
-                        <!--dados pessoais-->
-                        <div class="col-md-6">
-                            <label for="inputCity" class="form-label">RG:</label>
-                            <input type="text" class="form-control" id="inputCity rg" class="cor">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label">Email:</label>
-                            <input type="email" class="form-control" id="inputEmail4 email"class="cor">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="inputPassword4" class="form-label">Senha:</label>
-                            <input type="password" class="form-control" id="inputPassword4 senha" class="cor">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="inputPassword4" class="form-label">Confirmação da Senha:</label>
-                            <input type="password" class="form-control" id="inputPassword4 confirmaSenha" class="cor"placeholder="Digite novamente a sua senha">
-                        </div>
-                        <!--Endereço-->
-                        <div class="col-10">
-                            <label for="inputAddress" class="form-label">CEP:</label>
-                            <input type="number" class="form-control" id="inputAddress cep"class="cor" placeholder="Digite apenas números">
-                        </div> 
-                        <div class="col-2" >   
-                            <button type="submit" class="btn btn-secondary" class="btn" id="buscaCep">Buscar </button>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="inputZip" class="form-label">Estado:</label>
-                            <input type="text" class="form-control" id="inputZip estado" disabled >
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <label for="inputCity" class="form-label">Cidade:</label>
-                            <input type="text" class="form-control" id="inputCity cidade" disabled>
-                        </div>
-                        
-                        <div class="col-md-6">
-                            <label for="inputZip" class="form-label">Bairro:</label>
-                            <input type="text" class="form-control" id="inputZip bairro" disabled >
-                        </div>
-                        <div class="col-md-4">
-                            <label for="inputZip" class="form-label">Rua:</label>
-                            <input type="text" class="form-control" id="inputZip rua" disabled>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="inputCity" class="form-label">Número:</label>
-                            <input type="number" class="form-control" id="inputZip numero" class="cor">
-                        </div>
-                        <div class="col-md-4">
-                            <label for="inputZip" class="form-label">Complemento:</label>
-                            <input type="text" class="form-control" id="inputZip complemento" class="cor">
-                        </div>
-                        <div class="col-md-12">
-                            <button type="submit" class="btn btn-primary" id="enviaCadastro">Enviar</button>
-                        </div>
-                    </form>
-                </section>
-            </div>
-        </main>
-        <footer class="p-2 text-center">
-            <p class="m-0"><a> Todos os direitos reservados &copy; PixArt 2022</a></p>
-        </footer>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="nome" class="cor" placeholder="Nome:">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="sobrenome" class="cor" placeholder="Sobrenome:">
+                    </div>
+
+                    <!--dados pessoais-->
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">RG:</label>
+                        <input type="number" class="form-control" id="rg" class="cor">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" class="cor">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Senha:</label>
+                        <input type="password" class="form-control" id="senha" class="cor">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Confirmação da Senha:</label>
+                        <input type="password" class="form-control" id="confirmaSenha" class="cor"
+                            placeholder="Digite novamente a sua senha">
+                    </div>
+                    <!--Endereço-->
+                    <div class="col-5">
+                        <label for="inputAddress" class="form-label">CEP:</label>
+                        <input type="number" class="form-control" id="cep" class="cor"
+                            placeholder="Digite apenas números">
+                    </div>
+                    <div class="col-2">
+                        <button type="submit" class="nes-btn mt-4" class="btn" id="buscaCep">Buscar </button>
+                    </div>
+                    <div id="teste" class="col-md-5">
+                        <label for="inputZip" class="form-label">Estado:</label>
+                        <input type="text" class="form-control" id="estado" readonly>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <label for="inputCity" class="form-label">Cidade:</label>
+                        <input type="text" class="form-control" id="cidade" readonly>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="inputZip" class="form-label">Bairro:</label>
+                        <input type="text" class="form-control" id="bairro" readonly>
+                    </div>
+                    <div class="col-md-5">
+                        <label for="inputZip" class="form-label">Rua:</label>
+                        <input type="text" class="form-control" id="rua" readonly>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputCity" class="form-label">Número:</label>
+                        <input type="number" class="form-control" id="numero" class="cor">
+                    </div>
+                    <div class="col-md-5">
+                        <label for="inputZip" class="form-label">Complemento:</label>
+                        <input type="text" class="form-control" id="complemento" class="cor">
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="nes-btn is-primary mt-4" id="enviaCadastro">Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer class="p-2 text-center">
+        <p class="m-0"><a> Todos os direitos reservados &copy; PixArt 2022</a></p>
+    </footer>
     </div>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/models/modelCep.js"></script>
+    <script src="../js/views/viewCep.js"></script>
+    <script src="../js/controllers/controllerCep.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
