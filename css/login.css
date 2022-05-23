@@ -29,7 +29,6 @@ body{
 main{
     /* position: relative;
     bottom: 5rem; */
-    height: 27rem;
     font-family: 'Minecraftia';
     display: flex;
     justify-content: center;
