@@ -2,9 +2,11 @@ class CepController {
     passaCep() {
         const validacao = new CepModel($('#cep').val())
         const mostra = new CepView()
-
-        validacao.reqCEP()
-
+        if(!validacao.validaCep(validacao.cep)){
+            validacao.reqCep()                    
+        } else {
+            alert('oie')
+        }
         mostra.mostraReq(validacao)
     }
 }

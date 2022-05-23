@@ -6,15 +6,27 @@ class CepModel {
         this.bairro = '';
         this.cep = $('#cep');
     }
+    
+    validaCep(cep){
+        const valida = new RegExp('^[0-9]{8}$')
+        return valida.test(cep)
+    }
 
-    reqCEP() {
+    reqCep() {        
         const requisicao = new XMLHttpRequest()
 
         requisicao.addEventListener('load', () => {
-            if (requisicao.status == 200) {
-                const dados = this._processaResposta(requisicao.responseText)
-                this._att(dados)
-            } 
+            try {
+                if (requisicao.status == 200) {
+                    const dados = this._processaResposta(requisicao.responseText)
+                    if (dados.erro == 'true') {
+                        throw new Error('Cep não encontrado')
+                    }
+                    this._att(dados)
+                }
+            } catch(erro){
+                alert(erro.message)
+            }
         })
         requisicao.open('GET', `https://viacep.com.br/ws/${this.cep.val()}/json/`, false)
         requisicao.send()
@@ -31,4 +43,5 @@ class CepModel {
         this.bairro = dados.bairro
         this.rua = dados.logradouro
     }
+
 }
