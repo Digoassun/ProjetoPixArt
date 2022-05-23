@@ -70,6 +70,7 @@ main {
     align-items: center;
     width: 6em;
 }
+
 .espaçamento {
     display: flex;
     flex-direction: column;
@@ -107,3 +108,42 @@ main {
 .btn-style:focus {
     box-shadow: none !important;
 }
+
+/* .success input {
+    border: 3px solid green;
+}
+
+.error input {
+    border: 3px solid red;
+}
+
+.success i .img.success {
+    visibility: visible;
+}
+
+
+
+.error i.img-error {
+    visibility: visible;
+}
+
+.error small {
+    color: red;
+    visibility: visible;
+}
+
+i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    visibility: hidden;
+}
+
+small {
+    color: red;
+    visibility: ;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 13px;
+    left: 6rem;
+} */
