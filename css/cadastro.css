@@ -1,5 +1,5 @@
-@import url(colors.css);
-@import url(geral.css);
+@import url(./colors.css);
+@import url(./geral.css);
 
 .conteudo{
     display: flex;
