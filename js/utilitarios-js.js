@@ -20,6 +20,6 @@ login.addEventListener("click", ()=>{
     location.assign("./login.html");
 })
 
-cadastro.addEvent("click", ()=>{
+cadastro.addEventListener("click", ()=>{
     location.assign("./cadastro.html");
 })
