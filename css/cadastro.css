@@ -1,6 +1,5 @@
 @import url(./colors.css);
 @import url(./geral.css);
-
 .conteudo{
     display: flex;
     flex-direction: column;
@@ -20,7 +19,7 @@
 
 .form-label{
     font-family: 'rainyhearts';
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 button{
@@ -36,8 +35,9 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
+
 .row{
-    width: 40rem;
+    width: 50rem;
 }
 
 
@@ -45,7 +45,7 @@ input{
     text-align: center;
     font-family: 'Minecraftia';
     font-size:smaller;
- }
+}
 
 input::placeholder{
     font-size: 0.7rem;
@@ -86,4 +86,3 @@ nav .nav{
     align-items: center;
     justify-content: center;
 }
-
