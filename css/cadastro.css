@@ -86,3 +86,13 @@ nav .nav{
     align-items: center;
     justify-content: center;
 }
+
+.btn-style {
+    font-family: 'VCR';
+    font-size: 1.1rem;
+    color: var(--dark) !important;
+}
+
+.btn-style:focus {
+    box-shadow: none !important;
+}

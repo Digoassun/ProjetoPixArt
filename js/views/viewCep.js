@@ -5,5 +5,5 @@ class CepView {
         $("#cidade").val(obj.cidade)
         $("#bairro").val(obj.bairro)
         $("#rua").val(obj.rua)
-    }
+    }    
 }
