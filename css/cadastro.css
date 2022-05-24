@@ -43,11 +43,13 @@ input[type=number]::-webkit-outer-spin-button {
 
 input{
     text-align: center;
-
-    width: 2000px;
+    font-family: 'Minecraftia';
+    font-size:smaller;
  }
 
-
+input::placeholder{
+    font-size: 0.7rem;
+}
 
 main{
     display: flex;
@@ -56,8 +58,8 @@ main{
     flex-direction: column;
 }
 
-.btn{
-    margin-top: 2.2em;
+#buscaCep{
+    margin-top: 2em;
 }
 
 .envia{
@@ -66,7 +68,6 @@ main{
     justify-content: center;
     margin: 0;
     padding: 0;
-    
 }
 
 header{
@@ -85,3 +86,4 @@ nav .nav{
     align-items: center;
     justify-content: center;
 }
+
