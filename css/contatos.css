@@ -1,46 +1,48 @@
 @import url(../css/colors.css);
 @import url(../css/geral.css);
 
-main {
+h1 {
     text-align: center;
-}
-main h1 {
     font-family: 'rainyhearts';
-    color: black;
     font-size: 70px;
 }
 
-.container.container1 {
-    text-align: center;
-    margin-left: 7rem;
-}
-
-.row.pictures {
-    margin-top: 2rem;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.row.pictures1 {
-    justify-content: center;
-
-}
-
-
-.cardPic {
-    display: flex;
-    flex-direction: column;
+.pictures {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     margin-bottom: 15px;
-    padding: 30px;
-    width: 350px;
-    height: 350px;
-    background-color: var(--wine);
-    border-radius: 15px;
+
 }
 
-.cardPic h3 {
+.cardStyle {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-color: var(--white);
+    gap: 10px;
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+h3 {
     font-family: 'Minecraftia';
     color: white;
+    font-size: 26px;
 }
 
+.cards p {
+    color: gray;
+    font-family: 'rainyhearts';
+    font-size: 25px;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+}

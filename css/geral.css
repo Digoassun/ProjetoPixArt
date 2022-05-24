@@ -1,4 +1,4 @@
-@import url(colors.css);
+@import url(./colors.css);
 
 @font-face {
     font-family: 'Minecraftia';
@@ -68,15 +68,6 @@ header {
 
 .navbar-collapse {
     width: auto;
-}
-
-.nav-link {
-    border-bottom: 2px solid transparent !important;
-    transition: 0.3s;
-}
-
-.nav-link:hover {
-    border-bottom: 2px solid var(--wine);
 }
 
 .cadastro-style {
