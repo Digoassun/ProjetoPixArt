@@ -49,3 +49,43 @@
 .preço {
     text-align: center;
 }
+
+.tamanhoOvo {
+    width: 5.1rem;
+}
+
+.tamanhoWorm {
+    width: 10rem;
+}
+
+.tamanhoFinal {
+    width: 6rem;
+}
+
+.cardStyle {
+    width: 19rem;
+    border-width: 3px;
+    border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(33,37,41)" /></svg>');
+    border-image-width: 2;
+    border-image-slice: 2;
+    border-image-outset: 2;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.posicionaCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-style {
+    font-family: 'VCR';
+    font-size: 1.1rem;
+    color: var(--dark) !important;
+}
+
+.btn-style:focus {
+    box-shadow: none !important;
+}
