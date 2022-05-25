@@ -116,6 +116,10 @@ main {
 .btn-style:focus {
     box-shadow: none !important;
 }
+.erro{
+    display: none;
+    color: red;
+}
 
 /* .success input {
     border: 3px solid green;

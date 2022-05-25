@@ -19,11 +19,11 @@ class ValidaController {
         view.mostrarValid(modelo.confirmaSenha, modelo.validarSenhaIgual(modelo.senha.val(), modelo.confirmaSenha.val()))
     }
 
-    validarCep(){
+    validarCep() {
         view.mostrarValid(modelo.cep, modelo.validarCep(modelo.cep.val()))
     }
 
-    validarReq(inputReq){
+    validarReq(inputReq) {
         view.mostrarValid(inputReq, modelo.validarReq(inputReq.val()))
     }
 }
@@ -34,7 +34,7 @@ const controlador = new ValidaController
 
 $(document).ready(() => {
     $(modelo.rg).mask("00.000.000-0")
-    
+
 })
 
 
@@ -62,26 +62,38 @@ $(modelo.confirmaSenha).keyup(() => {
     controlador.validarMesmaSenha()
 })
 
-$(modelo.cep).keyup(()=> {
+$(modelo.cep).keyup(() => {
     controlador.validarCep()
 })
 
-$(modelo.estado).blur(()=> {
+$(modelo.estado).blur(() => {
     controlador.validarReq(modelo.estado)
 })
 
-$(modelo.cidade).blur(()=>{
+$(modelo.cidade).blur(() => {
     controlador.validarReq(modelo.cidade)
 })
 
 
-$(modelo.bairro).blur(()=> {
+$(modelo.bairro).blur(() => {
     controlador.validarReq(modelo.bairro)
 })
 
-$(modelo.rua).blur(()=> {
+$(modelo.rua).blur(() => {
     controlador.validarReq(modelo.rua)
 })
 
 
+const erro = document.querySelector("#erro")
 
+$(modelo.btn).click((e) => {
+    e.preventDefault()
+    if (modelo.validarEmail(modelo.email.val()) == "success" && modelo.validarSenha(modelo.confirmaSenha.val()) == "success" && modelo.validarSenhaIgual(modelo.senha.val() == "success"))  {
+        location.assign("../index.html");
+
+    }
+    else if (modelo.validarEmail(modelo.email.val()) == "error" || modelo.validarSenha(modelo.senha.val()) == "error" || modelo.validarSenha(modelo.confirmaSenha.val() =="error")){
+        erro.style.display = "flex"
+
+    }
+})
