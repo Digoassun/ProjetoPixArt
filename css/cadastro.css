@@ -1,6 +1,5 @@
 @import url(./colors.css);
 @import url(./geral.css);
-
 .conteudo{
     display: flex;
     flex-direction: column;
@@ -20,7 +19,7 @@
 
 .form-label{
     font-family: 'rainyhearts';
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 button{
@@ -36,18 +35,21 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
+
 .row{
-    width: 40rem;
+    width: 50rem;
 }
 
 
 input{
     text-align: center;
+    font-family: 'Minecraftia';
+    font-size:smaller;
+}
 
-    width: 2000px;
- }
-
-
+input::placeholder{
+    font-size: 0.7rem;
+}
 
 main{
     display: flex;
@@ -56,8 +58,8 @@ main{
     flex-direction: column;
 }
 
-.btn{
-    margin-top: 2.2em;
+#buscaCep{
+    margin-top: 2em;
 }
 
 .envia{
@@ -66,7 +68,6 @@ main{
     justify-content: center;
     margin: 0;
     padding: 0;
-    
 }
 
 header{
@@ -84,4 +85,14 @@ nav .nav{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.btn-style {
+    font-family: 'VCR';
+    font-size: 1.1rem;
+    color: var(--dark) !important;
+}
+
+.btn-style:focus {
+    box-shadow: none !important;
 }
