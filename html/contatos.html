@@ -26,19 +26,20 @@
                 <div class="navbarstyle justify-content-end collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link a-style active p-0" aria-current="page" href="#">Home</a>
+                            <a class="nav-link a-style active p-0" aria-current="page" href="#" id="home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a-style p-0" href="#">Serviços</a>
+                            <a class="nav-link a-style p-0" href="#" id="servicos">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a-style p-0" href="#">Contato</a>
+                            <a class="nav-link a-style p-0" href="#" id="contato">Contato</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a-style p-0" href="#">Login</a>
+                            <a class="nav-link a-style p-0" href="#" id="login">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a-style p-0" href="#">Cadastre-se</a>
+                            <button class="nes-btn is-primary cadastro-style p-0" href="#"
+                                id="cadastro">Cadastre-se</button>
                         </li>
                     </ul>
                 </div>
@@ -50,20 +51,20 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="cards cardStyle">
-                    <img src="../imgs/unknown.png" alt="" class="pictures">
+                    <img src="../imgs/erikpadrao.svg" alt="" class="pictures" id="pic0">
                     <h3>Erik Souza</h3>
-                    <p>WebDev FullStack</p>
+                    <p>O Último Romântico</p>
                     <div class="icones">
                         <a href="https://github.com/SGErik" class="nes-icon github is-medium"></a>
                         <a href="https://www.linkedin.com/in/erik-souza-69b603237/" class="nes-icon linkedin is-medium"></a>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="cards cardStyle">
-                    <img src="../imgs/unknown.png" alt="" class="pictures">
+            <div class="col-xs-12 col-sm-6 col-md-4" >
+                <div class="cards cardStyle" id="div1">
+                    <img src="../imgs/rodrigo.svg" alt="" class="pictures" id="pic1">
                     <h3>Rodrigo Assunção</h3>
-                    <p>WebDev FullStack</p>
+                    <p>Fofoqueiro Profissional</p>
                     <div class="icones">
                     <a href="https://github.com/Digoassun" class="nes-icon github is-medium"></a>
                     <a href="https://www.linkedin.com/in/rodrigo-assun/" class="nes-icon linkedin is-medium"></a>
@@ -72,9 +73,9 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="cards cardStyle">
-                    <img src="../imgs/joca.svg" alt="" class="pictures">
+                    <img src="../imgs/joca.svg" alt="" class="pictures" id="pic2">
                     <h3>João Pedro</h3>
-                    <p>WebDev FullStack</p>
+                    <p>Apenas uma ideia de homem</p>
                     <div class="icones">
                     <a href="https://github.com/joao-pedro-de-moura" class="nes-icon github is-medium"></a>
                     <a href="https://www.linkedin.com/in/joão-pedro-de-moura-marinho-51820618a/" class="nes-icon linkedin is-medium"></a>
@@ -85,9 +86,9 @@
         <div class="row justify-content-center mt-5">
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="cards cardStyle">
-                    <img src="../imgs/unknown.png" alt="" class="pictures">
+                    <img src="../imgs/willian.svg" alt="" class="pictures" id="pic3">
                     <h3>Willian Carvalho</h3>
-                    <p>WebDev FullStack</p>
+                    <p>Auxiliar de Fofoqueiro</p>
                     <div class="icones">
                     <a href="https://github.com/willcrvlh" class="nes-icon github is-medium"></a>
                     <a href="https://www.linkedin.com/in/willian-carvalho-631616230/" class="nes-icon linkedin is-medium"></a>
@@ -96,9 +97,9 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="cards cardStyle">
-                    <img src="../imgs/unknown.png" alt="" class="pictures">
+                    <img src="../imgs/talyn.svg" alt="" class="pictures" id="pic4">
                     <h3>Talysson Barbosa</h3>
-                    <p>WebDev FullStack</p>
+                    <p>Menino de Ouro</p>
                     <div class="icones">
                     <a href="https://github.com/Talyssonbs" class="nes-icon github is-medium"></a>
                     <a href="https://www.linkedin.com/in/talysson-barbosa-b46974212/" class="nes-icon linkedin is-medium"></a>
@@ -121,5 +122,17 @@
     <footer class="p-2">
         <p class="m-0 text-center"><a> Todos os direitos reservados &copy; PixArt 2022</a></p>
     </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery.mask.js"></script>
+    <script src="../js/models/modelCep.js"></script>
+    <script src="../js/views/viewCep.js"></script>
+    <script src="../js/controllers/controllerCep.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/models/modelValidacao.js"></script>
+    <script src="../js/views/viewValidacao.js"></script>
+    <script src="../js/controllers/controllerValidacao.js"></script>
+    <script src="../js/utilitarios-js.js"></script>
+
 </body>
 </html>

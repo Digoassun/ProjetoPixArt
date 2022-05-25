@@ -12,6 +12,11 @@ class ValidaModel {
         this.cidade = $("#cidade")
         this.bairro = $("#bairro")
         this.rua = $("#rua")
+        this.pic0 = $("#pic0")
+        this.pic1 = $("#pic1")
+        this.pic2 = $("#pic2")
+        this.pic3 = $("#pic3")
+        this.pic4 = $("#pic4")
     }
 
     // Validação do Input de Email
@@ -89,8 +94,8 @@ class ValidaModel {
     }   
     
     validarReq(req){
-        if(typeof req != 'string'){
-            return ''
+        if(req == ''){
+            return 'error'
         } else {
             return 'success'
         }
