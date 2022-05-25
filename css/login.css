@@ -15,7 +15,12 @@ body {
     justify-content: space-around;
     padding-bottom: 1rem;
 }
-
+.h1form{
+    position: relative;
+    top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
 .logo {
     max-width: 50px;
     max-height: 30px;
@@ -53,14 +58,6 @@ main {
 
 .invert {
     transform: scaleX(-1)
-}
-.sectionH1{
-    position: relative;
-    top: 1em;
-}
-.h1formE {
-    margin-left: 1em;
-    margin-right: 1em;
 }
 
 .form-floating {
