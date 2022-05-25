@@ -54,9 +54,13 @@ main {
 .invert {
     transform: scaleX(-1)
 }
-
-.h1form {
-    padding-top: 2rem;
+.sectionH1{
+    position: relative;
+    top: 1em;
+}
+.h1formE {
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .form-floating {
@@ -69,6 +73,13 @@ main {
     justify-content: space-between;
     align-items: center;
     width: 6em;
+}
+.divInput{
+    width: 15em;
+}
+.logInput{
+   
+    width:15em;
 }
 
 .espaçamento {
