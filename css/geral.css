@@ -25,17 +25,13 @@ body {
 
 body::-webkit-scrollbar {
     width: 7px;
-    /* width of the entire scrollbar */
 }
 
 
 body::-webkit-scrollbar-thumb {
     background-color: var(--wine);
-    /* color of the scroll thumb */
     border-radius: 20px;
-    /* roundness of the scroll thumb */
     border: 1px solid var(--pale-white);
-    /* creates padding around scroll thumb */
 }
 
 button,
@@ -45,8 +41,7 @@ a {
 
 header {
     width: 100%;
-    background-color: transparent;
-    transition: background ease-out 0.2;
+    background-color: transparent;    
 }
 
 .a-style {
@@ -83,6 +78,10 @@ header {
     box-shadow: none !important;
 }
 
+.foot-style{
+    font-size: 1.3rem;
+}
+
 @media(min-width:992px) {
     .nav-link {
         margin-left: 10px;
@@ -100,5 +99,4 @@ header {
         margin-left: 0;
         margin-top: 0.8em;
     }
-
 }

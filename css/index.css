@@ -86,9 +86,9 @@ body {
 }
 
 .txt-carousel-style {
-    color: var(--wine);
-    font-family: 'VCR';
-    font-size: 4rem;
+    color: var(--dark);
+    font-family: 'Minecraftia';
+    font-size: 2.5rem;
 }
 
 .img-inverter {
@@ -123,6 +123,7 @@ body {
     padding: 40px;
     padding-top: 90px;
     color: #999;
+    height: 350px;
 }
 
 .swiper-slide-shadow-left,
