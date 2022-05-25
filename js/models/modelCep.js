@@ -7,10 +7,6 @@ class CepModel {
         this.cep = $('#cep');
     }
     
-    validaCep(cep){
-        const valida = new RegExp('^[0-9]{8}$')
-        return valida.test(cep)
-    }
 
     reqCep() {        
         const requisicao = new XMLHttpRequest()
@@ -20,12 +16,14 @@ class CepModel {
                 if (requisicao.status == 200) {
                     const dados = this._processaResposta(requisicao.responseText)
                     if (dados.erro == 'true') {
+                        $('#cep').attr('class','nes-input is-error')
                         throw new Error('Cep não encontrado')
                     }
+                    $('#cep').attr('class','nes-input is-success')
                     this._att(dados)
                 }
             } catch(erro){
-                alert(erro.message)
+                console.error(erro)
             }
         })
         requisicao.open('GET', `https://viacep.com.br/ws/${this.cep.val()}/json/`, false)

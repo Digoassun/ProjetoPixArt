@@ -2,97 +2,148 @@
 @import url(../css/colors.css);
 @import url(../css/geral.css);
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
-.divh1{
+
+.sectionH1 {
     display: flex;
     width: 100%;
     justify-content: space-around;
     padding-bottom: 1rem;
 }
-.logo{
+
+.logo {
     max-width: 50px;
     max-height: 30px;
 }
-.divlogo{
+
+.divlogo {
     padding-left: 2rem;
 
 }
 
-.divnav{
+.divnav {
     padding-right: 2rem;
 }
-main{
+
+main {
     /* position: relative;
     bottom: 5rem; */
-    height: 27rem;
     font-family: 'Minecraftia';
     display: flex;
     justify-content: center;
 }
-.form{
-    
+
+.form {
+
     display: flex;
     flex-direction: column;
     align-items: center;
-   
-    
+    justify-content: center;
+
     border-radius: 2rem;
     width: auto;
     height: auto;
-    
+
 }
-.h1form{
-    padding-top: 2rem ;
+
+.invert {
+    transform: scaleX(-1)
 }
-.form-floating{
+
+.h1form {
+    padding-top: 2rem;
+}
+
+.form-floating {
     width: 20rem;
 }
-.imgForm{
+
+.imgForm {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 10rem;
-    padding-bottom: 1rem;
-   
+    justify-content: space-between;
     align-items: center;
+    width: 6em;
 }
-.facebook{
-    width: 3rem;
-    height: 3rem;
-   
-}
-.google{
-    width: 3rem;
-    height: 3rem;
-}
-.espaçamento{
+
+.espaçamento {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
 }
-.linkDiv{
+
+.linkDiv {
     display: flex;
     text-align: end;
     padding-bottom: 1rem;
 }
-.linkEsqueci{
+
+.linkEsqueci {
     text-decoration: none;
     display: flex;
     color: #323232;
-    text-align:start ;
+    text-align: start;
 }
-.linkEsqueci:hover{
+
+.linkEsqueci:hover {
     color: #323232;
 }
-.input-group{
+
+.input-group {
     width: 20rem;
 }
-.wrapper{
-    padding: 0;
+
+.btn-style {
+    font-family: 'VCR';
+    font-size: 1.1rem;
+    color: var(--dark) !important;
 }
+
+.btn-style:focus {
+    box-shadow: none !important;
+}
+
+/* .success input {
+    border: 3px solid green;
+}
+
+.error input {
+    border: 3px solid red;
+}
+
+.success i .img.success {
+    visibility: visible;
+}
+
+
+
+.error i.img-error {
+    visibility: visible;
+}
+
+.error small {
+    color: red;
+    visibility: visible;
+}
+
+i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    visibility: hidden;
+}
+
+small {
+    color: red;
+    visibility: ;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 13px;
+    left: 6rem;
+} */
