@@ -1,8 +1,8 @@
 const home = document.querySelector('#home');
-const servico = document.getElementById('servicos');
-const contato = document.getElementById('contato');
-const login = document.getElementById('login');
-const cadastro = document.getElementById('cadastro')
+const servico = document.querySelector('#servicos');
+const contato = document.querySelector('#contato');
+const login = document.querySelector('#login');
+const cadastro = document.querySelector('#cadastro');
 
 home.addEventListener("click", () => {
     location.assign("../index.html");
@@ -23,3 +23,5 @@ login.addEventListener("click", () => {
 cadastro.addEventListener("click", () => {
     location.assign("./cadastro.html");
 })
+
+//
