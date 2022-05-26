@@ -19,6 +19,8 @@ class ValidaModel {
         this.pic2 = $("#pic2")
         this.pic3 = $("#pic3")
         this.pic4 = $("#pic4")
+        this.btnLogin = $("#btn-login")
+        this.btnEsqueci = $("#btn-esqueci")
     }
 
     // Validação do Input de Email

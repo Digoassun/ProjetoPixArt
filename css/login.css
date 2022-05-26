@@ -15,7 +15,12 @@ body {
     justify-content: space-around;
     padding-bottom: 1rem;
 }
-
+.h1form{
+    position: relative;
+    top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
 .logo {
     max-width: 50px;
     max-height: 30px;
@@ -55,10 +60,6 @@ main {
     transform: scaleX(-1)
 }
 
-.h1form {
-    padding-top: 2rem;
-}
-
 .form-floating {
     width: 20rem;
 }
@@ -69,6 +70,13 @@ main {
     justify-content: space-between;
     align-items: center;
     width: 6em;
+}
+.divInput{
+    width: 15em;
+}
+.logInput{
+   
+    width:15em;
 }
 
 .espaçamento {
@@ -107,6 +115,10 @@ main {
 
 .btn-style:focus {
     box-shadow: none !important;
+}
+.erro{
+    display: none;
+    color: red;
 }
 
 /* .success input {
