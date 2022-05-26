@@ -4,11 +4,17 @@ const contatos = document.querySelector('#contatoI')
 const login = document.querySelector('#loginI')
 const cadastro = document.querySelector('#cadastroI')
 const saibaMais= document.querySelectorAll('.botaoSaiba')
+const picLogoIndex = document.querySelector('#pic-logoIndex')
 
 
 home.addEventListener('click', () => {
     location.assign('./index.html')
 })
+
+picLogoIndex.addEventListener('click',()=>{
+    location.assign('./index.html')
+})
+
 servicos.addEventListener('click', () => {
     location.assign('./html/servicos.html')
 })
