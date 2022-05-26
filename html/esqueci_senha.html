@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PixArt</title>
+    <link rel="icon" type="image/x-icon" href="../imgs/arts/P-favicon.png">
     <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -26,33 +27,34 @@
                 <div class="navbarstyle justify-content-end collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link a-style active p-0" aria-current="page" href="#" id ="home">Home</a>
+                            <a class="nav-link a-style active p-0" aria-current="page" href="#" id="home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a-style p-0" href="#" id ="servicos">Serviços</a>
+                            <a class="nav-link a-style p-0" href="#" id="servicos">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a-style p-0" href="#" id = "contato">Contato</a>
+                            <a class="nav-link a-style p-0" href="#" id="contato">Contato</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a-style p-0" href="#" id ="login">Login</a>
+                            <a class="nav-link a-style p-0" href="#" id="login">Login</a>
                         </li>
                         <li class="nav-item">
-                            <button class="nes-btn is-primary cadastro-style p-0" id = "cadastro" href="#">Cadastre-se</button>
+                            <button class="nes-btn is-primary cadastro-style p-0" id="cadastro"
+                                href="#">Cadastre-se</button>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
-        <main>
-            <form action="" class="form  " id ="form">
-                <section class="sectionH1 " id="sectionH1">
-                    <img src="../imgs/arts/skull_spirit.png" class="invert" alt="" id="imgH1Left">
-                    <h1 class="h1form h1formE text-center" >ESQUECI A SENHA</h1>
-                    <img src="../imgs/arts/skull_spirit.png" alt="" id="imgH1Rigth">
-                </section>
-              <div class="col-md-6 divInput mb-4">
+    <main>
+        <form action="" class="form  " id="form">
+            <section class="sectionH1 " id="sectionH1">
+                <img src="../imgs/arts/skull_spirit.png" class="invert" alt="" id="imgH1Left">
+                <h1 class="h1form h1formE text-center">ESQUECI A SENHA</h1>
+                <img src="../imgs/arts/skull_spirit.png" alt="" id="imgH1Rigth">
+            </section>
+            <div class="col-md-6 divInput mb-4">
                 <label for="inputEmail4" class="form-label">Email:</label>
                 <input type="email" class="nes-input logInput" id="email" class="cor" placeholder="">
             </div>
@@ -64,16 +66,16 @@
                 <label for="inputPassword4" class="form-label">Nova Senha:</label>
                 <input type="password" class="nes-input logInput" id="confirmaSenha" class="cor">
             </div>
-                <p id = "erro" class ="erro">Email ou senha invalidos</p>
+            <p id="erro" class="erro">Email ou senha invalidos</p>
             <div class="wrapper">
                 <button class="nes-btn is-primary btn-style" id="btn-esqueci" href="#">Entrar</button>
             </div>
-                </form>
-        </main>
-        <footer class="p-1 text-center foot-style">        
-            <p class="m-0">Todos os direitos reservados &copy; PixArt 2022</p>
-            <p class="m-0">Projeto desenvolvido para fins educacionais</p>
-        </footer>
+        </form>
+    </main>
+    <footer class="p-1 text-center foot-style">
+        <p class="m-0">Todos os direitos reservados &copy; PixArt 2022</p>
+        <p class="m-0">Projeto desenvolvido para fins educacionais</p>
+    </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../js/jquery.mask.js"></script>
@@ -82,5 +84,6 @@
     <script src="../js/views/viewValidacao.js"></script>
     <script src="../js/controllers/controllerValidacao.js"></script>
     <script src="../js/utilitarios-js.js"></script>
-    </body>
+</body>
+
 </html>
