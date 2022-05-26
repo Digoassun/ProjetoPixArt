@@ -5,6 +5,7 @@ const login = document.getElementById('login');
 const cadastro = document.getElementById('cadastro')
 const email = document.getElementById('email')
 const senha = document.getElementById('senha')
+const picLogo = document.querySelector('#pic-logo')
 
 home.addEventListener("click", ()=>{
     location.assign("../index.html");
@@ -24,4 +25,8 @@ login.addEventListener("click", () => {
 
 cadastro.addEventListener("click", () => {
     location.assign("./cadastro.html");
+})
+
+picLogo.addEventListener('click',()=>{
+    location.assign("../index.html");
 })
