@@ -86,14 +86,25 @@ $(modelo.rua).blur(() => {
 
 const erro = document.querySelector("#erro")
 
-$(modelo.btn).click((e) => {
-    e.preventDefault()
+$(modelo.btnLogin).click((event) => {
+    event.preventDefault()
+    if (modelo.validarEmail(modelo.email.val()) == "success"  && modelo.validarSenha(modelo.senha.val())== "success" ) {
+        location.assign("../index.html");
+
+    }
+    else if (modelo.validarEmail(modelo.email.val() == "error") || modelo.validarSenha(modelo.senha.val() == "error") ){
+        erro.style.display = "flex"
+    }
+
+})
+
+$(modelo.btnEsqueci).click((event) => {
+    event.preventDefault()
     if (modelo.validarEmail(modelo.email.val()) == "success" && modelo.validarSenha(modelo.confirmaSenha.val()) == "success" && modelo.validarSenhaIgual(modelo.senha.val() == "success"))  {
         location.assign("../index.html");
 
     }
     else if (modelo.validarEmail(modelo.email.val()) == "error" || modelo.validarSenha(modelo.senha.val()) == "error" || modelo.validarSenha(modelo.confirmaSenha.val() =="error")){
         erro.style.display = "flex"
-
     }
 })

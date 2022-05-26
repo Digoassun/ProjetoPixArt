@@ -12,7 +12,8 @@ class ValidaModel {
         this.cidade = $("#cidade")
         this.bairro = $("#bairro")
         this.rua = $("#rua")
-        this.btn = $("#btn-login")
+        this.btnLogin = $("#btn-login")
+        this.btnEsqueci = $("#btn-esqueci")
     }
 
     // Validação do Input de Email

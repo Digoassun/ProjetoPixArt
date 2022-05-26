@@ -5,6 +5,7 @@ const login = document.getElementById('login');
 const cadastro = document.getElementById('cadastro')
 const email = document.getElementById('email')
 const senha = document.getElementById('senha')
+const esqueciSenha = document.getElementById('esqueciSenha')
 home.addEventListener("click", ()=>{
     location.assign("../index.html");
 })
@@ -24,5 +25,8 @@ login.addEventListener("click", ()=>{
 cadastro.addEventListener("click", ()=>{
     location.assign("./cadastro.html");
 })
-
+esqueciSenha.addEventListener("click", (event)=>{
+    event.preventDefault()
+    location.assign("./esqueci_senha.html")
+})
 
