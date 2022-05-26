@@ -36,6 +36,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
+
 .row{
     width: 50rem;
 }
@@ -95,4 +96,16 @@ nav .nav{
 
 .btn-style:focus {
     box-shadow: none !important;
+}
+
+@media (max-width: 768px) {
+    .row{
+        width: 30em;
+    }
+}
+
+@media(max-width:500px) {
+    .row{
+        width: 20rem;
+    }
 }
