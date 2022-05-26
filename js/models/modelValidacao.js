@@ -12,6 +12,8 @@ class ValidaModel {
         this.cidade = $("#cidade")
         this.bairro = $("#bairro")
         this.rua = $("#rua")
+        this.numero = $("#numero")
+        this.btnCadastro = $("#enviaCadastro")
         this.pic0 = $("#pic0")
         this.pic1 = $("#pic1")
         this.pic2 = $("#pic2")
@@ -25,7 +27,8 @@ class ValidaModel {
         if (email == "") {
             return 'error'
         } else {
-            const arroba = /@/
+            const arroba = /^([a-z]){1,}([a-z0-9._-]){1,}([@]){1}([a-z]){2,}([.]){1}([a-z]){2,}([.]?){1}([a-z]?){2,}$/i;
+
             if (!arroba.test(email)) {
                 return 'error'
             } else if (email.length <= 8) {
@@ -99,6 +102,7 @@ class ValidaModel {
         } else {
             return 'success'
         }
-    
     }
+
+
 }

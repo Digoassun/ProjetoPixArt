@@ -133,5 +133,17 @@ $(modelo.rua).blur(()=> {
     controlador.validarReq(modelo.rua)
 })
 
+$(modelo.numero).keyup(()=>{
+    controlador.validarReq(modelo.numero)
+})
+
+$(modelo.btnCadastro).click((event)=>{
+    event.preventDefault()
+    if(modelo.validarEmail(modelo.email.val()) == "success" && modelo.validarNome(modelo.nome.val()) == "success" && modelo.validarNome(modelo.sobrenome.val()) == "success" && modelo.validarRG(modelo.rg.val()) == "success" && modelo.validarSenha(modelo.senha.val()) == "success" && modelo.validarSenhaIgual(modelo.senha.val(), modelo.confirmaSenha.val()) == "success" && modelo.validarCep(modelo.cep.val()) == "success" && modelo.validarReq(modelo.numero.val()) == "success" ) {
+        location.assign('../index.html')
+    } else {
+        $("#alertaDiv").css("display", "flex")
+    }
+})
 
 

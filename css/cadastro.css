@@ -96,3 +96,15 @@ nav .nav{
 .btn-style:focus {
     box-shadow: none !important;
 }
+
+.alertaDiv{
+    display: none;
+    justify-content: center;
+}
+
+.alertaErro {
+    color: red;
+    text-align: center;
+    font-size: 1.70rem;
+    font-family:'rainyhearts';
+}
