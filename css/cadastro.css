@@ -1,5 +1,12 @@
 @import url(./colors.css);
 @import url(./geral.css);
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .conteudo{
     display: flex;
     flex-direction: column;
