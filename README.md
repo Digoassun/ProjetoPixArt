@@ -36,7 +36,7 @@ Link para a página: [PixArt](https://digoassun.github.io/ProjetoPixArt/)
   
 ![image](https://user-images.githubusercontent.com/102702258/170794453-87f07f0e-b5b7-4d33-a972-259848f6b145.png)
   
-[--Rodrigo Assunção--](https://github.com/Digoassun) [--João Pedro Almeida--](https://github.com/joao-pedro-de-moura) [--Willian Carvalho--](https://github.com/willcrvlh) [--Erik Souza--](https://github.com/SGErik) [--Talyson Barbosa--](https://github.com/Talyssonbs)
+[--Rodrigo Assunção--](https://github.com/Digoassun) [--João Pedro de Moura--](https://github.com/joao-pedro-de-moura) [--Willian Carvalho--](https://github.com/willcrvlh) [--Erik Souza--](https://github.com/SGErik) [--Talyson Barbosa--](https://github.com/Talyssonbs)
 
   
  </div>
