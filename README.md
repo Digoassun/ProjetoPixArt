@@ -10,7 +10,7 @@
 <a href="#Fim">*Fim*</a>  
 
 <h1 id="Sobre" align="center">🤔Quem somos?🤔</h1>
-<p align="center">A PixArt é uma empresa que de educação. Vendemos cursos para GameDevs exclusivamente para pixel arte.</p>
+<p align="center">A PixArt é uma empresa de educação. Vendemos cursos para GameDevs exclusivamente para pixel arte.</p>
 <p align="center">Aqui dentro, nossos valores são voltados para ajudar o pequeno desenvolvedor e pessoas inexperientes na área, para entrar pro mercado de trabalho de forma rápida e eficiente.  </p>
 
 <h1 id="Tec" align="center">🖥️Como o projeto foi construído?🖥️</h1>
