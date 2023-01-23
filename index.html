@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PixArt</title>
+    <link rel="icon" type="image/x-icon" href="imgs/arts/P-favicon.png">
     <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -13,11 +14,11 @@
 </head>
 
 <body>
-    <header>
+    <header class="">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">
-                    <img src="imgs/PixArt.svg" class="img-fluid" alt="">
+                <a class="navbar-brand" id="pic-logoIndex" href="#">
+                    <img src="imgs/PixArt.svg" class="img-fluid" alt="Logo da PixArt">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,75 +27,81 @@
                 <div class="navbarstyle justify-content-end collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link a-style active p-0" aria-current="page" id="home" href="#">Home</a>
+                            <a class="nav-link a-style active p-0" aria-current="page" id="homeI" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a-style p-0" id="servicos" href="#">Serviços</a>
+                            <a class="nav-link a-style p-0" id="servicosI" href="#">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a-style p-0" id="contato" href="#">Contato</a>
+                            <a class="nav-link a-style p-0" id="contatoI" href="#">Contato</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a-style p-0" id="login" href="#">Login</a>
+                            <a class="nav-link a-style p-0" id="loginI" href="#">Login</a>
                         </li>
                         <li class="nav-item">
-                            <button class="nes-btn is-primary cadastro-style p-0" id="cadastro" href="#">Cadastre-se</button>
+                            <button class="nes-btn is-primary cadastro-style p-0" id="cadastroI"
+                                href="#">Cadastre-se</button>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
-    <main>
+    <main class="mt-5">
         <section class="container mt-5 mb-5 sec-1">
             <div class="row">
                 <figure class="text-center col-2">
-                    <img src="imgs/arts/main.png" class="img-fluid" alt="">
+                    <img src="imgs/arts/character.svg" class="img-fluid" alt="Imagem de um personagem em pixel arte">
                 </figure>
-                <h1 class="p-4 text-center title-style main-title-style col-8">Seja bem vindo a <span><img class="img-logo-sec" src="imgs/PixArt.svg" alt=""></span>
+                <h1 class="p-4 text-center title-style main-title-style col-8">Seja bem vindo a <span><img
+                            class="img-logo-sec" src="imgs/PixArt.svg" alt=""></span>
                 </h1>
                 <figure class="text-center col-2">
-                    <img src="imgs/arts/main.png" class="img-fluid img-inverter" alt="">
+                    <img src="imgs/arts/character.svg" class="img-fluid img-inverter" alt="Imagem de um personagem em pixel arte">
                 </figure>
             </div>
-            <h2 class="p-4 mb-0 text-center title-style">O melhor curso de programação GameDev voltada a Pixel Art!</h2>
+            <h2 class="p-4 mb-0 text-center title-style">O melhor curso de desenvolvimento de jogos voltado a Pixel Art!
+            </h2>
         </section>
-        <section class="container-fluid mt-5 mb-5">
+        <section class="container-fluid mt-5 mb-5 ">
             <h3 class="p-3 title-style text-center">Tecnologias e Linguagens do curso:</h3>
             <div class="cards">
                 <article class="p-0 card card-style text-center">
-                    <img src="imgs/arts/C-carousel.png" class="img-card card-img-top img-fluid" alt="...">
+                    <img src="imgs/arts/C-carousel.png" class="img-card card-img-top img-fluid" alt="C# logo">
                     <div class="card-body card-body-style">
                         <h5 class="card-title title-style card-title-style">C#</h5>
-                        <p class="card-text card-text-style">CSharp é uma linguagem de programação orientada a objetos.</p>
-                        <button class="nes-btn is-primary btn-style">Saiba mais</button>
+                        <p class="card-text card-text-style">CSharp é uma linguagem de programação orientada a objetos.
+                        </p>
+                        <button class="nes-btn is-primary btn-style botaoSaiba">Saiba mais</button>
                     </div>
                 </article>
                 <article class=" p-0 card card-style text-center">
-                    <img src="imgs/arts/fruity-loops-carousel.jpg" class="img-card card-img-top img-fluid" alt="...">
+                    <img src="imgs/arts/fruity-loops-carousel.jpg" class="img-card card-img-top img-fluid" alt="Fruity loops logo">
                     <div class="card-body card-body-style">
                         <h5 class="card-title title-style card-title-style">Fruit Loops Studio</h5>
-                        <p class="card-text card-text-style">FL Studio, é um sequenciador de áudio para compor e editar suas próprias
+                        <p class="card-text card-text-style">FL Studio, é um sequenciador de áudio para compor e editar
+                            suas próprias
                             músicas.</p>
-                        <button class="nes-btn is-primary btn-style">Saiba mais</button>
+                        <button class="nes-btn is-primary btn-style botaoSaiba">Saiba mais</button>
                     </div>
                 </article>
                 <article class="p-0 card card-style text-center">
-                    <img src="imgs/arts/unity-carousel.jpg" class="img-card card-img-top img-fluid" alt="...">
+                    <img src="imgs/arts/unity-carousel.jpg" class="img-card card-img-top img-fluid" alt="Unity logo">
                     <div class="card-body card-body-style">
                         <h5 class="card-title title-style card-title-style">Unity</h5>
                         <p class="card-text card-text-style">Unity é uma plataforma “motor de jogos”.</p>
-                        <button class="nes-btn is-primary btn-style">Saiba mais</button>
+                        <button class="nes-btn is-primary btn-style botaoSaiba">Saiba mais</button>
                     </div>
                 </article>
                 <article class="p-0 card card-style text-center">
                     <img src="imgs/imgs/asprite.jpg" class="img-card img-card-singular card-img-top img-fluid"
-                        alt="...">
+                        alt="Aseprite logo">
                     <div class="card-body card-body-style">
                         <h5 class="card-title title-style card-title-style">Aseprite</h5>
-                        <p class="card-text card-text-style">O Aseprite permite criar animações 2D para videogames de sprites a pixel
+                        <p class="card-text card-text-style">O Aseprite permite criar animações 2D para videogames de
+                            sprites a pixel
                             art</p>
-                        <button class="nes-btn is-primary btn-style">Saiba mais</button>
+                        <button class="nes-btn is-primary btn-style botaoSaiba">Saiba mais</button>
                     </div>
                 </article>
             </div>
@@ -110,26 +117,26 @@
                         aria-label="Slide 3"></button>
 
                 </div>
-                <div class="carousel-inner carousel-inner-style">
+                <article class="carousel-inner carousel-inner-style">
                     <div class="carousel-item active" data-bs-interval="5000">
-                        <img src="imgs/arts/pixel-bg-carousel.png" class="d-block w-100 img-carousel" alt="...">
+                        <img src="imgs/arts/pixel-bg-carousel.png" class="d-block w-100 img-carousel" alt="Cenário pixel arte">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="txt-carousel-style">Crie seu portifólio dentro do curso</h5>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="5000">
-                        <img src="imgs/gif-carousel.gif" class="d-block w-100 img-carousel" alt="...">
+                        <img src="imgs/gif-carousel.gif" class="d-block w-100 img-carousel" alt="Gif Goku">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="txt-carousel-style">Aprenda a animar suas artes</h5>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="5000">
-                        <img src="imgs/pride-flag.gif" class="d-block w-100 img-carousel img-carousel-posi" alt="...">
+                        <img src="imgs/pride-flag.gif" class="d-block w-100 img-carousel img-carousel-posi" alt="Bandeira LGBTQIA+">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="txt-carousel-style">Ambiente seguro e diverso!</h5>
                         </div>
                     </div>
-                </div>
+                </article>
                 <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -147,29 +154,47 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <article class="testimonial-box">
-                            <img src="imgs/right-quote.png" class="quote" alt="">
+                            <img src="imgs/right-quote.png" class="quote" alt="Imagem de aspas">
                             <div class="content">
-                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
-                                    nam, aspernatur eligendi!</p>
+                                <p class="content-swipe-text">Empresa excelente! Educadores impecáveis e estilo PixelArt
+                                    conceitual.</p>
                                 <div class="details">
                                     <div class="imgBx">
-                                        <img class="img-swiper" src="imgs/erika.jpg" alt="">
+                                        <img class="img-swiper" src="imgs/erika.jpg" alt="Foto da Erika">
                                     </div>
                                     <h3 class="h3-swiper">Erika Rodrigues<br><span class="span-swiper">Metalera
                                             Fumante</span></h3>
                                 </div>
                             </div>
+
                         </article>
                     </div>
                     <div class="swiper-slide">
                         <article class="testimonial-box">
-                            <img src="imgs/right-quote.png" class="quote" alt="">
+                            <img src="imgs/right-quote.png" class="quote" alt="Imagem de aspas">
                             <div class="content">
-                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
-                                    nam, aspernatur eligendi!</p>
+                                <p class="content-swipe-text">Por aqui em SP PixArt está em todos os outdoors meo. Não
+                                    tem como ser melhor.</p>
                                 <div class="details">
                                     <div class="imgBx">
-                                        <img class="img-swiper" src="imgs/bea.jpg" alt="">
+                                        <img class="img-swiper" src="imgs/hudson.jpg" alt="Foto da Hudson">
+                                    </div>
+                                    <h3 class="h3-swiper">Hudson Uchoa<br><span class="span-swiper">Otaku
+                                            Paulista</span></h3>
+                                </div>
+                            </div>
+
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="testimonial-box">
+                            <img src="imgs/right-quote.png" class="quote" alt="Imagem de aspas">
+                            <div class="content">
+                                <p class="content-swipe-text">Eu amei! Aqui no Sul só se fala de PixArt. Uma plataforma
+                                    completa para quem se interessa pela antiga arte de 8bits</p>
+                                <div class="details">
+                                    <div class="imgBx">
+                                        <img class="img-swiper" src="imgs/bea.jpg" alt="Foto da Beatriz">
                                     </div>
                                     <h3 class="h3-swiper">Beatriz Mioranza<br><span class="span-swiper">Atacante</span>
                                     </h3>
@@ -179,29 +204,13 @@
                     </div>
                     <div class="swiper-slide">
                         <article class="testimonial-box">
-                            <img src="imgs/right-quote.png" class="quote" alt="">
+                            <img src="imgs/right-quote.png" class="quote" alt="Imagem de aspas">
                             <div class="content">
-                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
-                                    nam, aspernatur eligendi!</p>
+                                <p class="content-swipe-text">Quando dou aula para os meus alunos sempre indico a
+                                    PixArt. Melhor curso da área de GameDev!</p>
                                 <div class="details">
                                     <div class="imgBx">
-                                        <img class="img-swiper" src="imgs/erik.png" alt="">
-                                    </div>
-                                    <h3 class="h3-swiper">Erik Sousa<br><span class="span-swiper">Último
-                                            Romântico</span></h3>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="swiper-slide">
-                        <article class="testimonial-box">
-                            <img src="imgs/right-quote.png" class="quote" alt="">
-                            <div class="content">
-                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
-                                    nam, aspernatur eligendi!</p>
-                                <div class="details">
-                                    <div class="imgBx">
-                                        <img class="img-swiper" src="imgs/igor.png" alt="">
+                                        <img class="img-swiper" src="imgs/igor.png" alt="Foto da Igor">
                                     </div>
                                     <h3 class="h3-swiper">Igor Santos<br><span class="span-swiper">Monitor T17</span>
                                     </h3>
@@ -211,13 +220,13 @@
                     </div>
                     <div class="swiper-slide">
                         <article class="testimonial-box">
-                            <img src="imgs/right-quote.png" class="quote" alt="">
+                            <img src="imgs/right-quote.png" class="quote" alt="Imagem de aspas">
                             <div class="content">
-                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
-                                    nam, aspernatur eligendi!</p>
+                                <p class="content-swipe-text">Preço barato demais pro conteúdo apresentado! Não teria
+                                    como ser melhor, experiência mais íncrivel que ja tive.</p>
                                 <div class="details">
                                     <div class="imgBx">
-                                        <img class="img-swiper" src="imgs/jiulie.jpg" alt="">
+                                        <img class="img-swiper" src="imgs/jiulie.jpg" alt="Foto da Jiulie">
                                     </div>
                                     <h3 class="h3-swiper">Jiulie Vitória<br><span class="span-swiper">Modelo
                                             Socialite</span></h3>
@@ -227,13 +236,13 @@
                     </div>
                     <div class="swiper-slide">
                         <article class="testimonial-box">
-                            <img src="imgs/right-quote.png" class="quote" alt="">
+                            <img src="imgs/right-quote.png" class="quote" alt="Imagem de aspas">
                             <div class="content">
-                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
-                                    nam, aspernatur eligendi!</p>
+                                <p class="content-swipe-text">Não existem palavras para descrever esse curso. Antes eu
+                                    estava perdido, com apenas um sonho. E agora, conigo bota-lo em prática.</p>
                                 <div class="details">
                                     <div class="imgBx">
-                                        <img class="img-swiper" src="imgs/rico.jpg" alt="">
+                                        <img class="img-swiper" src="imgs/rico.jpg" alt="Foto da Enrico">
                                     </div>
                                     <h3 class="h3-swiper">Enrico Martins<br><span class="span-swiper">Criador de
                                             Tigres</span></h3>
@@ -243,13 +252,13 @@
                     </div>
                     <div class="swiper-slide">
                         <article class="testimonial-box">
-                            <img src="imgs/right-quote.png" class="quote" alt="">
+                            <img src="imgs/right-quote.png" class="quote" alt="Imagem de aspas">
                             <div class="content">
-                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
-                                    nam, aspernatur eligendi!</p>
+                                <p class="content-swipe-text">Nunca havia visto um curso que ensinaria tanto conteúdo
+                                    com tanta maestria! Parabéns a PixArt e seu time de desenvolvedores!</p>
                                 <div class="details">
                                     <div class="imgBx">
-                                        <img class="img-swiper" src="imgs/romulo.jpg" alt="">
+                                        <img class="img-swiper" src="imgs/romulo.jpg" alt="Foto da Romulo">
                                     </div>
                                     <h3 class="h3-swiper">Romulo Miranda<br><span class="span-swiper">Vaper
                                             Profissional</span></h3>
@@ -259,29 +268,32 @@
                     </div>
                     <div class="swiper-slide">
                         <article class="testimonial-box">
-                            <img src="imgs/right-quote.png" class="quote" alt="">
+                            <img src="imgs/right-quote.png" class="quote" alt="Imagem de aspas">
                             <div class="content">
-                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
-                                    nam, aspernatur eligendi!</p>
+                                <p class="content-swipe-text">Amei. Diferente, inusitado, inovador e simples! Pensam no
+                                    aluno do início ao fim dando todo suporte para quem precisa.</p>
                                 <div class="details">
                                     <div class="imgBx">
-                                        <img class="img-swiper" src="imgs/bruna-metaverso.jpg" alt="">
+                                        <img class="img-swiper" src="imgs/bruna-metaverso.jpg" alt="Foto da Bruna do metaverso">
                                     </div>
                                     <h3 class="h3-swiper">Bruna<br><span class="span-swiper"> do Metaverso</span></h3>
                                 </div>
                             </div>
                         </article>
-                    </div><div class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide">
                         <article class="testimonial-box">
-                            <img src="imgs/right-quote.png" class="quote" alt="">
+                            <img src="imgs/right-quote.png" class="quote" alt="Imagem de aspas">
                             <div class="content">
-                                <p class="content-swipe-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio perferendis eos
-                                    nam, aspernatur eligendi!</p>
+                                <p class="content-swipe-text">Me sinto Pixelada!! Esse curso muda a vida de qualquer que
+                                    esteja interessado em fazer parte da área de GameDev!</p>
                                 <div class="details">
                                     <div class="imgBx">
-                                        <img class="img-swiper" src="imgs/sabrina.jpg" alt="">
+                                        <img class="img-swiper" src="imgs/sabrina.jpg" alt="Sabrina">
                                     </div>
-                                    <h3 class="h3-swiper">Sabrina<br><span class="span-swiper">Indiana de tabela</span></h3>
+                                    <h3 class="h3-swiper">Sabrina Guimarães<br><span class="span-swiper">Indiana de
+                                            tabela</span>
+                                    </h3>
                                 </div>
                             </div>
                         </article>
@@ -290,8 +302,9 @@
                 </div>
         </section>
     </main>
-    <footer class="p-2 text-center">
-        <p class="m-0"><a> Todos os direitos reservados &copy; PixArt 2022</a></p>
+    <footer class="p-1 text-center foot-style">
+        <p class="m-0">Todos os direitos reservados &copy; PixArt 2022</p>
+        <p class="m-0">Projeto desenvolvido para fins educacionais</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
@@ -302,6 +315,7 @@
     </script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/swipe.js"></script>
+    <script src="js/redirecionaIndex.js"></script>
 </body>
 
 </html>

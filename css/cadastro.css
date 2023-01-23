@@ -1,5 +1,12 @@
 @import url(./colors.css);
 @import url(./geral.css);
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .conteudo{
     display: flex;
     flex-direction: column;
@@ -34,6 +41,7 @@ input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
 
 
 .row{
@@ -107,4 +115,15 @@ nav .nav{
     text-align: center;
     font-size: 1.70rem;
     font-family:'rainyhearts';
+}
+@media (max-width: 768px) {
+    .row{
+        width: 30em;
+    }
+}
+
+@media(max-width:500px) {
+    .row{
+        width: 20rem;
+    }
 }
